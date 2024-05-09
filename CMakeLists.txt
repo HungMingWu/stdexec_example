@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.20)
 project(stdexec_example VERSION 0.0.1)
-set(CMAKE_CXX_SCAN_FOR_MODULES ON)
 find_package(stdexec CONFIG REQUIRED)
 add_executable(${PROJECT_NAME})
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
